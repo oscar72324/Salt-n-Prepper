@@ -1,1 +1,1 @@
-# Salt-n-Prepper
+School group project where we implemented certain solution designs and methodologies such as the Agile approach and working in a 5–6-person group. Designed a meal planner application using HTML, CSS and JavaScript that implements certain features such as inputting meals and calories in weekly calendar, a meal library/ menu, login page and BMI calculator. 
