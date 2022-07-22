@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+<link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+
+
+    <div class="content">
+        <header class="app-header">
+            <div class="container">
+                
+                <img src="img/logo1.jpg" alt="" class="logo">
+
+            </div>
+        </header>
+
+        <div class="subheader" id="title">
+
+
+        </div>
+
+        <div class="grid container">
+
+            <a href="../Calendar/index.html" class="link" >
+            <div class="item">
+                <h4>Calendar</h4>
+                <p>Log your meals and calories to keep track throughout the day. </p>
+                <img src="img/calendar.jpg" alt="">
+            </div>
+            </a>
+
+            <a href="../Survey Form/index.html" class="link">
+            <div class="item">
+                <h4>Survey</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. dasd </p>
+                <img src="img/clock.png" alt="">
+            </div>
+            </a>
+
+            <a href="../Calculator/index.html" class="link" >
+            <div class="item">
+                <h4>Calorie Calculator</h4>
+                <p>Calculate your BMI to get optimal meals and set meal plans to meet goal!</p>
+                <img src="img/calculator.jpg" alt="">
+            </div>
+            </a>
+
+            <a href="../Account/index.html" class="link" >
+                <div class="item">
+                    <h4>Sign in</h4>
+                <p>Sign in to your account or easily sign up if you don't already have an one! ! ! </p>
+                    <img src="img/user.png" alt="">
+                </div>
+                </a>
+
+            <a href="../Meal Library/index.html" class="link">
+            <div class="item">
+                <h4>Meal Library</h4>
+                <p>List of healthy nutritious meals with recipes to go along with them. </p>
+                <img src="img/utensils.png" alt="">
+            </div>
+        </a>
+
+        <a href="../Settings/index.html" class="link">
+            <div class="item">
+                <h4>Settings</h4>
+                <p>Adjust survey answers for different diets as well as notifications ! !! </p>
+                <img src="img/Settings1.png" alt="">
+            </div>
+        </a>
+
+        </div>
+
+    </div>
+
+    <footer class="app-footer">
+        <ul>
+            <a href="index.html" class="link">
+            <li>
+                Home
+            </li>
+            </a>
+
+            <a href="../Account/index.html" class="link">
+            <li>
+                Account
+            </li>
+        </a>
+
+
+
+        </ul>
+    </footer>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Load our React component. -->
+    <script src="../Calendar/src/App.js"></script>
+    <script src="app.js"></script>
+    <script>import React from 'react';
+        import ReactDOM from 'react-dom';
+        import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+        import {Homepage, Aboutpage } from './App';</script>
+</body>
+</html>
